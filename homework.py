@@ -46,3 +46,49 @@
 # for x, y in zip(new_char_list, new_num_list):
 #       mydict.setdefault(x,y)
 # print(mydict)   
+
+
+# def my_fuc(x):
+#     if x == 1:
+#         return 1    
+#     else:
+#         return x * my_fuc(x-1) 
+# print(my_fuc(6)) 
+
+
+
+
+# def my_func(x):
+#     if x in (1,2):
+#         return 1
+#     return my_func(x-1) + my_func(x -2)    
+# print(my_func(40))
+
+# def kalkulator(a,b,gort):
+#     if gort == '*':
+#         return a*b
+#     elif gort == '-':
+#         return a-b
+#     elif gort == '+':
+#         return a + b
+#     elif gort == '/':
+#         return a / b 
+# a = int(input('number1--'))
+# gort = input('mutqagreq gortoxutyun') 
+# b = int(input('number2---'))
+# print(kalkulator(a,b,gort))
+
+
+
+# def fib(x):
+#     if x == 1:
+#         return 0
+#     elif x in (1,2):
+#         return 1      
+#     else:
+#         return fib(x-1) + fib(x-2)
+# x = int(input('mutqagreq tiv---'))            
+# print(fib(x)) 
+
+
+
